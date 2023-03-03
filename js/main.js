@@ -15,6 +15,7 @@ function myCreateElement(htmlElement, htmlValue) {
         element.classList.add('selected');
         element.innerText = htmlValue;
     })
+    return element;
 };
 // ---------- FUNCTIONS ----------
 
